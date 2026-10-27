@@ -43,6 +43,8 @@ const requiredFiles = [
   'assets/js/main.js',
   'assets/images/logo.svg',
   'assets/images/favicon.svg',
+  'assets/images/hero-dentist-consultation.webp',
+  'assets/images/hero-dentist-consultation.png',
   'assets/images/hero-illustration.svg',
   'assets/images/diagram-kathmandu-valley.svg',
   'assets/images/service-rct.svg',
