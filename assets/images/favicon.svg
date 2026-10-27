@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="KB Dental Favicon">
+  <defs>
+    <linearGradient id="favBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#133E87"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#favBlue)"/>
+  <!-- Stylized Tooth -->
+  <path d="M32,10 C42,10 51,17 51,28 C51,39 45,47 40,54 C37,57 34,57 32,52 C30,46 27,46 25,52 C23,57 20,57 17,54 C12,47 6,39 6,28 C6,17 15,10 25,10 C27.5,10 30,11.5 32,13.5 C34,11.5 36.5,10 32,10 Z" 
+        fill="#FFFFFF"/>
+  <!-- Vibrant Orange Smile Line -->
+  <path d="M15,26 C22,35 35,35 42,26" 
+        fill="none" stroke="#FF7A00" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Accent Sparkle -->
+  <circle cx="46" cy="14" r="3.5" fill="#FF7A00"/>
+</svg>

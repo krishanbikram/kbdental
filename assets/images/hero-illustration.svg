@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 400" width="540" height="400" role="img" aria-label="Dental Care Connection Illustration">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#133E87"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#FFB366"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <rect width="540" height="400" rx="16" fill="url(#heroBg)"/>
+  
+  <!-- Subtle background medical cross pattern -->
+  <g opacity="0.07" fill="#FFFFFF">
+    <path d="M60,40 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 z"/>
+    <path d="M460,70 h15 v15 h15 v15 h-15 v15 h-15 v-15 h-15 v-15 h15 z"/>
+    <path d="M90,300 h16 v16 h16 v16 h-16 v16 h-16 v-16 h-16 v-16 h16 z"/>
+    <path d="M470,300 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 z"/>
+  </g>
+  
+  <!-- Glowing central connection shield -->
+  <circle cx="270" cy="180" r="110" fill="#1E3A8A" opacity="0.3" filter="url(#softGlow)"/>
+  
+  <!-- Large Clean Tooth Icon in Center -->
+  <g transform="translate(210, 110)">
+    <path d="M60,10 C85,10 110,24 110,55 C110,80 95,105 80,125 C72,135 65,135 60,120 C55,105 48,105 43,120 C38,135 30,135 23,125 C8,105 10,80 10,55 C10,24 35,10 60,10 Z" 
+          fill="#FFFFFF" />
+    <!-- Smile Arc on Tooth -->
+    <path d="M30,55 C48,78 72,78 90,55" fill="none" stroke="url(#glow)" stroke-width="7" stroke-linecap="round"/>
+    <!-- Sparkle -->
+    <path d="M98,25 L102,15 L106,25 L116,29 L106,33 L102,43 L98,33 L88,29 Z" fill="#FF7A00"/>
+  </g>
+  
+  <!-- Network Connection Nodes -->
+  <!-- Node Left: Kathmandu Central -->
+  <g transform="translate(60, 140)">
+    <rect width="125" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.95"/>
+    <circle cx="24" cy="25" r="14" fill="#0B2545"/>
+    <path d="M19,25 L23,29 L29,21" stroke="#FF7A00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="46" y="23" font-family="sans-serif" font-size="11" font-weight="700" fill="#0B2545">Verified Clinic</text>
+    <text x="46" y="37" font-family="sans-serif" font-size="9.5" fill="#64748B">Kathmandu Central</text>
+    <line x1="125" y1="25" x2="210" y2="150" stroke="#FF7A00" stroke-width="2" stroke-dasharray="4 3"/>
+  </g>
+  
+  <!-- Node Right: Lalitpur -->
+  <g transform="translate(355, 140)">
+    <rect width="125" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.95"/>
+    <circle cx="24" cy="25" r="14" fill="#0B2545"/>
+    <path d="M19,25 L23,29 L29,21" stroke="#059669" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="46" y="23" font-family="sans-serif" font-size="11" font-weight="700" fill="#0B2545">Same-Day RCT</text>
+    <text x="46" y="37" font-family="sans-serif" font-size="9.5" fill="#64748B">Lalitpur / Patan</text>
+    <line x1="0" y1="25" x2="-35" y2="150" stroke="#FF7A00" stroke-width="2" stroke-dasharray="4 3"/>
+  </g>
+  
+  <!-- Bottom Banner: Call Connection -->
+  <g transform="translate(100, 310)">
+    <rect width="340" height="60" rx="12" fill="url(#glow)"/>
+    <!-- Phone icon -->
+    <circle cx="36" cy="30" r="18" fill="#FFFFFF"/>
+    <path d="M28,24 C28,22 30,20 32,20 L34,20 C36,20 37,22 37,24 L36,27 C36,28 35,29 34,29 C34,31 36,33 38,35 C40,37 42,39 44,39 C44,38 45,37 46,37 L49,36 C51,36 53,37 53,39 L53,41 C53,43 51,45 49,45 C41,45 28,32 28,24 Z" fill="#0B2545" transform="translate(-4, -4)"/>
+    <text x="70" y="27" font-family="sans-serif" font-size="14" font-weight="800" fill="#0B2545">Immediate Phone Booking</text>
+    <text x="70" y="47" font-family="sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">+977 9815885859</text>
+    <rect x="250" y="16" width="75" height="28" rx="6" fill="#0B2545"/>
+    <text x="287" y="34" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">CALL NOW</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "name": "kb-dental",
+  "version": "1.0.0",
+  "description": "Production-ready local lead-generation and referral website for KB Dental in Kathmandu Valley",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node scripts/test-site.js"
+  },
+  "keywords": [
+    "dental",
+    "lead-generation",
+    "local-seo",
+    "kathmandu",
+    "cloudflare-pages"
+  ],
+  "author": "KB Dental Team",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" role="img" aria-label="Kathmandu Valley Dental Network Coverage Map">
+  <defs>
+    <linearGradient id="mapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="nodeShadow">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0B2545" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="420" rx="16" fill="url(#mapBg)"/>
+  
+  <!-- Valley Contour outlines (Abstract aesthetic) -->
+  <path d="M40,210 Q140,70 300,90 T540,160 Q570,300 430,360 T120,340 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M80,210 Q160,110 300,120 T500,180 Q520,280 400,330 T150,300 Z" fill="#F8FAFC" opacity="0.8"/>
+  
+  <!-- Ring Road / Transit Corridor representation -->
+  <ellipse cx="290" cy="225" rx="190" ry="120" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-dasharray="8 6"/>
+  
+  <!-- Connection Network Lines -->
+  <line x1="260" y1="180" x2="330" y2="240" stroke="#FF7A00" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <line x1="260" y1="180" x2="230" y2="300" stroke="#0B2545" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="330" y1="240" x2="450" y2="250" stroke="#FF7A00" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <line x1="260" y1="180" x2="260" y2="120" stroke="#0B2545" stroke-width="2" stroke-dasharray="4 3"/>
+  
+  <!-- Hub 1: Central Kathmandu -->
+  <g transform="translate(230, 160)" filter="url(#nodeShadow)">
+    <circle cx="20" cy="20" r="22" fill="#0B2545"/>
+    <circle cx="20" cy="20" r="9" fill="#FF7A00"/>
+    <text x="20" y="56" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0B2545" text-anchor="middle">Central Kathmandu</text>
+    <text x="20" y="70" font-family="system-ui, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">New Road &amp; Thamel</text>
+  </g>
+
+  <!-- Hub 2: New Baneshwor -->
+  <g transform="translate(310, 220)" filter="url(#nodeShadow)">
+    <circle cx="20" cy="20" r="20" fill="#133E87"/>
+    <circle cx="20" cy="20" r="8" fill="#FF7A00"/>
+    <text x="20" y="54" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0B2545" text-anchor="middle">New Baneshwor</text>
+    <text x="20" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">Mid-Valley Hub</text>
+  </g>
+
+  <!-- Hub 3: Lalitpur (Patan & Jawalakhel) -->
+  <g transform="translate(210, 280)" filter="url(#nodeShadow)">
+    <circle cx="20" cy="20" r="20" fill="#0B2545"/>
+    <circle cx="20" cy="20" r="8" fill="#38BDF8"/>
+    <text x="20" y="54" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0B2545" text-anchor="middle">Lalitpur / Patan</text>
+    <text x="20" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">Pulchowk &amp; Kumaripati</text>
+  </g>
+
+  <!-- Hub 4: Bhaktapur / Madhyapur Thimi -->
+  <g transform="translate(430, 230)" filter="url(#nodeShadow)">
+    <circle cx="20" cy="20" r="24" fill="#FF7A00"/>
+    <circle cx="20" cy="20" r="10" fill="#FFFFFF"/>
+    <text x="20" y="58" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#0B2545" text-anchor="middle">Madhyapur Thimi</text>
+    <text x="20" y="72" font-family="system-ui, sans-serif" font-size="10" fill="#FF7A00" font-weight="600" text-anchor="middle">KB Dental Base</text>
+  </g>
+
+  <!-- Hub 5: Maharajgunj / North -->
+  <g transform="translate(240, 90)" filter="url(#nodeShadow)">
+    <circle cx="20" cy="20" r="18" fill="#1E293B"/>
+    <circle cx="20" cy="20" r="7" fill="#38BDF8"/>
+    <text x="20" y="-12" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0B2545" text-anchor="middle">Maharajgunj</text>
+    <text x="20" y="2" font-family="system-ui, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">Baluwatar &amp; Teaching Hosp Area</text>
+  </g>
+
+  <!-- Legend & Trust badge in corner -->
+  <g transform="translate(24, 24)">
+    <rect width="180" height="66" rx="8" fill="#FFFFFF" fill-opacity="0.9" stroke="#E2E8F0"/>
+    <circle cx="16" cy="22" r="6" fill="#FF7A00"/>
+    <text x="30" y="26" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0B2545">Partner Clinics Connected</text>
+    <circle cx="16" cy="46" r="6" fill="#059669"/>
+    <text x="30" y="50" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#059669">Same-Day Slots Available</text>
+  </g>
+</svg>

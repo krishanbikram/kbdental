@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Braces &amp; Orthodontics Diagram">
+  <defs>
+    <linearGradient id="bgBraces" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="12" fill="url(#bgBraces)"/>
+  
+  <!-- Gum line -->
+  <path d="M20,120 Q100,100 200,100 T380,120 L380,40 L20,40 Z" fill="#FCE7F3" opacity="0.8"/>
+  
+  <!-- Row of Teeth (Incisors, Canines, Premolars) -->
+  <g fill="#FFFFFF" stroke="#0B2545" stroke-width="2.5">
+    <!-- Premolar L -->
+    <path d="M40,110 C40,90 60,85 75,90 C85,95 85,160 85,180 C80,195 50,195 45,180 Z"/>
+    <!-- Canine L -->
+    <path d="M90,105 C90,85 115,80 135,88 C145,95 145,175 145,195 C135,210 100,210 95,195 Z"/>
+    <!-- Central Incisor L -->
+    <path d="M150,100 C150,80 180,75 195,80 C200,85 200,185 200,205 C185,215 155,215 150,205 Z"/>
+    <!-- Central Incisor R -->
+    <path d="M205,80 C220,75 250,80 250,100 C245,205 215,215 205,205 Z"/>
+    <!-- Canine R -->
+    <path d="M255,88 C275,80 300,85 300,105 C295,195 260,210 255,195 Z"/>
+    <!-- Premolar R -->
+    <path d="M305,90 C320,85 340,90 340,110 C335,180 305,195 305,180 Z"/>
+  </g>
+  
+  <!-- Orthodontic Archwire -->
+  <path d="M35,150 Q200,165 365,150" fill="none" stroke="#64748B" stroke-width="3.5" stroke-linecap="round"/>
+  
+  <!-- Metal / Ceramic Brackets -->
+  <g fill="#0B2545" stroke="#FF7A00" stroke-width="2">
+    <rect x="52" y="140" width="18" height="20" rx="3"/>
+    <rect x="108" y="140" width="18" height="20" rx="3"/>
+    <rect x="165" y="142" width="20" height="20" rx="3"/>
+    <rect x="215" y="142" width="20" height="20" rx="3"/>
+    <rect x="268" y="140" width="18" height="20" rx="3"/>
+    <rect x="312" y="140" width="18" height="20" rx="3"/>
+  </g>
+  
+  <!-- Elastic Ligatures (Vibrant Orange) -->
+  <circle cx="61" cy="150" r="4" fill="#FF7A00"/>
+  <circle cx="117" cy="150" r="4" fill="#FF7A00"/>
+  <circle cx="175" cy="152" r="4" fill="#FF7A00"/>
+  <circle cx="225" cy="152" r="4" fill="#FF7A00"/>
+  <circle cx="277" cy="150" r="4" fill="#FF7A00"/>
+  <circle cx="321" cy="150" r="4" fill="#FF7A00"/>
+  
+  <!-- Badge -->
+  <g transform="translate(110, 245)">
+    <rect width="180" height="32" rx="16" fill="#0B2545"/>
+    <text x="90" y="20" fill="#FFFFFF" font-family="sans-serif" font-size="11.5" font-weight="700" text-anchor="middle">Precise Alignment &amp; Bite Correction</text>
+  </g>
+</svg>

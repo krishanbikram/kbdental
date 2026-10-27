@@ -1,0 +1,26 @@
+# Cloudflare Pages Clean First-Level URL Redirects
+/root-canal-treatment-rct/ /services/root-canal-treatment-rct/ 301
+/root-canal-treatment/     /services/root-canal-treatment-rct/ 301
+/rct/                      /services/root-canal-treatment-rct/ 301
+/braces-orthodontics/      /services/braces-orthodontics/ 301
+/braces/                   /services/braces-orthodontics/ 301
+/orthodontics/             /services/braces-orthodontics/ 301
+/dental-implants/          /services/dental-implants/ 301
+/implants/                 /services/dental-implants/ 301
+/teeth-cleaning-scaling/   /services/teeth-cleaning-scaling/ 301
+/teeth-cleaning/           /services/teeth-cleaning-scaling/ 301
+/scaling/                  /services/teeth-cleaning-scaling/ 301
+/dental-crown-cap/         /services/dental-crown-cap/ 301
+/dental-crown/             /services/dental-crown-cap/ 301
+/crowns/                   /services/dental-crown-cap/ 301
+/tooth-filling/            /services/tooth-filling/ 301
+/fillings/                 /services/tooth-filling/ 301
+
+/kathmandu/                /locations/kathmandu/ 301
+/lalitpur/                 /locations/lalitpur/ 301
+/bhaktapur/                /locations/bhaktapur-thimi/ 301
+/thimi/                    /locations/bhaktapur-thimi/ 301
+/madhyapur-thimi/          /locations/bhaktapur-thimi/ 301
+/baneshwor/                /locations/baneshwor/ 301
+/new-baneshwor/            /locations/baneshwor/ 301
+/maharajgunj/              /locations/maharajgunj/ 301
